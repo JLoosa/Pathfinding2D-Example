@@ -1,0 +1,12 @@
+With the ambition of eventually evolving this project to use a Model-View-Controller design pattern,
+I am going to define three classes that are to be representative of each of these three components.
+
+Model.js:
+    Holds the internal representations of the 2D pathing plane. Should be able to support multiple types of tiles,
+    with each tile having it's own color and pathing weight.
+
+Renderer.js:
+    This is the view of the program.
+
+EventHandler:
+    This is the controller
