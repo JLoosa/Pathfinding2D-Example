@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <link rel="stylesheet" href="Pathfinding2DStyle.css">
+    <h1><a href="../../index.html">Home</a></h1>
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pathfinding Example</title>
+</head>
+
+<body>
+
+    <h3>
+        NOTE: This program is still incomplete!<br>
+        Although you can "draw" some terrain, there is still no way to mark the start or end and, as a result, there is no way to actually run the pathfinding algorithm.<br>
+        The final problem is that, although the underlying data structures are in place, I have no had the time from my classes to devote to completing this project.
+        As time becomes more available, I will dedicate more time to this project.
+        My goal is to have at least two fun projects that display some technical know-how before the end of 2020.
+    </h3>
+
+    <!-- The canvas and buttons are referenced in the JS, so I will load them in before the scripts. -->
+    <canvas id="PathCanvas" width="1280" height="720"></canvas>
+    <div id="MaterialSelector"></div>
+
+    <script src="_scripts/Model.js"></script>
+    <script src="_scripts/EventHandler.js"></script>
+    <script src="_scripts/Renderer.js"></script>
+
+    <div id="ProgramHowTo">
+        <p>
+            To use this program simple select the type of tool you would like to paint/draw with (E.g. Roads) and draw on the canvas <br>
+            When you are done drawing, place the starting and ending points for the Search algorithm you would like to test, and press run<br>
+            If you would like to watch the algorithm scan in real-time, simply select the "Animated search" option!
+        </p>
+    </div>
+
+</body>
+</html>

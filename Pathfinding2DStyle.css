@@ -1,0 +1,35 @@
+
+html {
+    background-image: linear-gradient(90deg, cadetblue, darkturquoise, cadetblue);
+}
+
+#ProgramHowTo {
+    width: 800px;
+    margin: auto;
+    text-align: center;
+    border-top: 5px solid cadetblue;
+    border-right: 3px solid cadetblue;
+    border-left: 3px solid cadetblue;
+    border-bottom: 5px solid cadetblue;
+}
+
+
+#PathCanvas {
+    border: 3px solid black;
+    margin: auto;
+    display: block;
+    width: 1280px;
+    height: 720px;
+    align-content: center;
+    image-rendering: optimizeSpeed;
+}
+
+#MaterialSelector {
+    width: 800px;
+    border: 3px solid black;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+}
